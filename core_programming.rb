@@ -115,3 +115,12 @@ elsif num > 20
 else
   print 1
 end
+
+#concatenation + interpolation
+
+# 1. Write a program that uses variables to store a first and last name, then prints the full name in one line using string concatenation (the + operator).
+
+first = "ben"
+last = "prat"
+
+print first + " " + last
