@@ -214,3 +214,11 @@ number = gets.chomp.to_i
 if number > 100
   print "That's a big number"
 end
+
+# 3. Write a program that asks the user to enter two numbers, then prints the numbers added together.
+
+print "please enter a number:"
+num1 = gets.chomp.to_i
+print "please enter another number:"
+num2 = gets.chomp.to_i
+print num1 + num2
