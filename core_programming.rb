@@ -237,3 +237,12 @@ word = gets.chomp
   print word
   print " "
 end
+
+# 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
+
+print "Please enter two words, one at a time:"
+word1 = gets.chomp.upcase
+word2 = gets.chomp.upcase
+10.times do
+  print "#{word1} #{word2}"
+end
