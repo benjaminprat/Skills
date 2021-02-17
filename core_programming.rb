@@ -131,3 +131,13 @@ first = "collin"
 last = "march"
 
 print "#{first} #{last}"
+
+# 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
+
+print " Please enter a name:"
+input = gets.chomp
+if input == "marco"
+  print "polo"
+else
+  print "nope"
+end
