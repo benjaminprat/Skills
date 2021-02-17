@@ -397,3 +397,11 @@ while i < numbers.length
   puts numbers[i]
   i += 1
 end
+
+# 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
+
+numbers = [1]
+numbers << 3
+numbers << 5
+numbers << 7
+print numbers
