@@ -335,3 +335,11 @@ while true
     break
   end
 end
+
+# 7. Write a while loop that prints the numbers 50 to 70.
+
+number = 50
+while number < 71
+  p number
+  number += 1
+end
