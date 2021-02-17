@@ -278,3 +278,13 @@ word = gets.chomp
 if word.length > 5
   p "That's a long word"
 end
+
+#loops
+
+#Write a while loop to print the numbers 1 through 10.
+
+num = 1
+while num < 11
+  puts num
+  num += 1
+end
