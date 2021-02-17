@@ -174,3 +174,10 @@ book_title = "On The Road"
 book_author = "Jack Kerouac"
 
 print "One of my favorite books is " + book_title + " " + "written by " + book_author + "."
+
+# 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the #{} operator).
+
+book = "Naked"
+author = "David Sedaris"
+
+print "One of the first books I laughed till I cried was #{book} written by #{author}."
