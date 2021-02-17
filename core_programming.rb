@@ -77,3 +77,14 @@ if num < 0
 else
   print 1979
 end
+
+# 8. Use a variable to store a number, then write a condition that prints 100 if the number equals 100, prints 99 if the number is equal to 99, and prints 0 otherwise.
+
+num = 1005
+if num == 100
+  print 100
+elsif num == 99
+  print 99
+else
+  print 0
+end
