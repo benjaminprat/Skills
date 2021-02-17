@@ -261,3 +261,11 @@ number = gets.chomp.to_i
 if number < 0
   print "That's a negative number"
 end
+
+# 9. Write a program that asks the user to enter two numbers, then prints the two numbers multiplied together.
+
+p "Please enter a number"
+num1 = gets.chomp.to_i
+p "Please enter another number"
+num2 = gets.chomp.to_i
+p num1 * num2
