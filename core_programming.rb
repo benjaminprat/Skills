@@ -252,3 +252,10 @@ end
 print "Please enter a word:"
 word = gets.chomp
 print word.length
+
+# 8. Write a program that asks the user to enter a number, then prints "That's a negative number" if the number is less than 0.
+
+print "Please enter a number:"
+number = gets.chomp.to_i
+if number < 0
+  print 
