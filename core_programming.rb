@@ -88,3 +88,14 @@ elsif num == 99
 else
   print 0
 end
+
+# 9. Use variables to store two numbers, then write a condition that prints 1 if the first number is less than zero and the second number is greater than 0, and prints 0 otherwise.
+
+num1 = -2
+num2 = 3
+
+if num1 < 0 && num2 > 0
+  print 1
+else
+  print 0
+end
