@@ -246,3 +246,9 @@ word2 = gets.chomp.upcase
 10.times do
   print "#{word1} #{word2}"
 end
+
+# 7. Write a program that asks the user to enter a word, then prints the number of letters in the word.
+
+print "Please enter a word:"
+word = gets.chomp
+print word.length
