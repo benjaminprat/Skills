@@ -427,3 +427,9 @@ end
 seasons = ["spring", "summer"]
 seasons << "fall"
 print seasons
+
+# 8. Create an array to store 5 numbers. Then change the first number to 10 times its original value and print the array on one line.
+
+numbers = [1, 2, 3, 4, 5]
+numbers[0] = numbers[0] * 10
+print numbers
