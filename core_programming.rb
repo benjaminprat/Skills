@@ -257,5 +257,7 @@ print word.length
 
 print "Please enter a number:"
 number = gets.chomp.to_i
+
 if number < 0
-  print 
+  print "That's a negative number"
+end
