@@ -405,3 +405,9 @@ numbers << 3
 numbers << 5
 numbers << 7
 print numbers
+
+# 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
+
+strings = ["morning", "afternoon", "evening"]
+strings[2] = strings[2].upcase
+print strings
