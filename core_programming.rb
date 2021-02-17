@@ -411,3 +411,13 @@ print numbers
 strings = ["morning", "afternoon", "evening"]
 strings[2] = strings[2].upcase
 print strings
+
+# 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
+
+names = ["Ben", "Syringa", "Collin"]
+i = 0
+
+while i < names.length
+  puts names[i]
+  i += 1
+end
