@@ -203,6 +203,14 @@ print "Three cities I am considering a move to are #{city1}, #{city2}, and #{cit
 
 # 1. Write a program that asks the user to enter a word, then prints that word with all capital letters.
 
-# print "enter a word:"
-# word = gets.chomp.upcase
-# print word
+print "enter a word:"
+word = gets.chomp.upcase
+print word
+
+# 2. Write a program that asks the user to enter a number, then prints "That's a big number" if the number is greater than 100.
+
+print "Please enter a number:"
+number = gets.chomp.to_i
+if number > 100
+  print "That's a big number"
+end
