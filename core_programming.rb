@@ -343,3 +343,12 @@ while number < 71
   p number
   number += 1
 end
+
+# 8. Write a while loop that prints the phrase "Around the world" 144 times.
+
+print_phrase = 1
+
+while print_phrase < 145
+  p "Around the world"
+  print_phrase += 1
+end
