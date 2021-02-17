@@ -21,3 +21,14 @@ elsif number > 10
 elsif number == 10
   print 0
 end
+
+# 3. Use variables to store two numbers, then write a condition that prints 1 if the numbers are both less than 10, and prints 0 otherwise.
+
+num1 = 2
+num2 = 9
+
+if num1 < 10 && num2 < 10
+  print 1
+else
+  print 0
+end
