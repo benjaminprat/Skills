@@ -228,3 +228,12 @@ print num1 + num2
 print "Please enter a word:"
 word = gets.chomp.reverse
 print word
+
+# 5. Write a program that asks the user to enter a number, then prints the number times 10.
+
+print "please enter a word"
+word = gets.chomp
+10.times do
+  print word
+  print " "
+end
