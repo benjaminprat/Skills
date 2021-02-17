@@ -325,3 +325,13 @@ while i < 11
   p 9000
   i += 1
 end
+
+# 6. Write a while loop that asks the user to enter a number and will run forever until the user enters a number greater than 10.
+
+while true
+  print "Please enter a number:"
+  number = gets.chomp.to_i
+  if number > 10
+    break
+  end
+end
