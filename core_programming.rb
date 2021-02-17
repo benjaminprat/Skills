@@ -192,3 +192,11 @@ if password == "Joshua"
 else
   print "Access denied"
 end
+
+# 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
+
+city1 = "Miami"
+city2 = "New Orleans"
+city3 = "Atlanta"
+
+print "Three cities I am considering a move to are #{city1}, #{city2}, and #{city3}."
