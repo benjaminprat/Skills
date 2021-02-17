@@ -99,3 +99,19 @@ if num1 < 0 && num2 > 0
 else
   print 0
 end
+
+# 10. Use a variable to store a number, then write a condition that prints 5 if the number is greater than 80, prints 4 if the number is greater than 60, prints 3 if the number is greater than 40, prints 2 if the number is greater than 20, and prints 1 otherwise (only one print statement should occur)
+
+num = 45
+
+if num > 80
+  print 5
+elsif num > 60
+  print 4
+elsif num > 40
+  print 3
+elsif num > 20
+  print 2
+else
+  print 1
+end
