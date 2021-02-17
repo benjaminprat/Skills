@@ -380,3 +380,10 @@ beverages = ["water", "wine", "margaritas"]
 beverages << "beer"
 beverages << "juice"
 print beverages
+
+# 2. Create an array to store 4 letters. Then change the second letter to a number and print the array on one line.
+
+letters = ["a", "b", "c", "d"]
+p letters
+letters[1] = 2
+p letters
