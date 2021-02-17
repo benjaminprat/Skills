@@ -352,3 +352,22 @@ while print_phrase < 145
   p "Around the world"
   print_phrase += 1
 end
+
+# 9. Write a while loop that asks the user to enter a word and will run forever until the user enters a word with more than 5 letters.
+
+while true
+  p "please enter a word:"
+  word = gets.chomp
+  if word.length > 5
+    break
+  end
+end
+
+# 10. Write a while loop that prints the even numbers from 2 to 40.
+
+number = 2
+
+while number < 42
+  p number
+  number += 2
+end
