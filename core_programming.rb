@@ -157,3 +157,13 @@ color2 = "red"
 color3 = "aqua"
 
 print "My favorite color is #{color1}, my second favorite is #{color2} and my third favorite is #{color3}."
+
+# 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
+
+print "Please enter a name:"
+name = gets.chomp
+if name != "Santa"
+  print "Youre not Santa"
+elsif name == "Santa"
+  print "Claus"
+end
