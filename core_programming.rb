@@ -200,3 +200,9 @@ city2 = "New Orleans"
 city3 = "Atlanta"
 
 print "Three cities I am considering a move to are #{city1}, #{city2}, and #{city3}."
+
+# 1. Write a program that asks the user to enter a word, then prints that word with all capital letters.
+
+# print "enter a word:"
+# word = gets.chomp.upcase
+# print word
