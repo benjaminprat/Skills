@@ -222,3 +222,9 @@ num1 = gets.chomp.to_i
 print "please enter another number:"
 num2 = gets.chomp.to_i
 print num1 + num2
+
+# 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
+
+print "Please enter a word:"
+word = gets.chomp.reverse
+print word
