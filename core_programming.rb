@@ -167,3 +167,10 @@ if name != "Santa"
 elsif name == "Santa"
   print "Claus"
 end
+
+# 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
+
+book_title = "On The Road"
+book_author = "Jack Kerouac"
+
+print "One of my favorite books is " + book_title + " " + "written by " + book_author + "."
