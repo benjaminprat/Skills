@@ -442,3 +442,9 @@ while i < numbers.length
   p numbers[i]
   i += 1
 end
+
+# 10. Create an array to store names of 3 different countries. Then add one more country and print the array one line.
+
+countries = ["Spain", "France", "Italy"]
+countries << "Germany"
+print countries
