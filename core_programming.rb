@@ -181,3 +181,14 @@ book = "Naked"
 author = "David Sedaris"
 
 print "One of the first books I laughed till I cried was #{book} written by #{author}."
+
+# 9. Write a program that asks the user to enter a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
+
+print "Please enter a password:"
+password = gets.chomp
+
+if password == "Joshua"
+  print "Shall we play a game?"
+else
+  print "Access denied"
+end
