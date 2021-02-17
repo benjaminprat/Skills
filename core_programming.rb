@@ -387,3 +387,13 @@ letters = ["a", "b", "c", "d"]
 p letters
 letters[1] = 2
 p letters
+
+# 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
+
+numbers = [0, 1, 2, 3, 4]
+i = 0
+
+while i < numbers.length
+  puts numbers[i]
+  i += 1
+end
