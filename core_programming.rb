@@ -449,6 +449,8 @@ countries = ["Spain", "France", "Italy"]
 countries << "Germany"
 print countries
 
+#hashes
+
 # 1. Make a hash to store a person's first name, last name, and email address. Then print each attribute on separate lines.
 
 person = {
@@ -559,3 +561,13 @@ shirt = { brand: "Nike", color: "green", size: "large"}
 p shirt[:brand]
 p shirt[:color]
 p shirt[:size]
+
+#Functions
+
+# 1. Write a function that takes in a number and returns the number times two. Then run the function and print the result.
+
+def multiply(number)
+  number * 2
+  end
+  
+  p multiply(4)
