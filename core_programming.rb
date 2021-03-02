@@ -587,3 +587,11 @@ def subtract(num1, num2)
   end
   
   p subtract(10,5)
+
+  # 4. Write a function that takes in a number and returns the number times itself. Then run the function and print the result.
+
+def squared(number)
+  return number * number
+  end
+  
+  p squared(4)
