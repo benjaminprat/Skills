@@ -611,3 +611,11 @@ def join_words(word1, word2, word3)
   end
   
   p join_words("margarita", "sunshine", "patio")
+
+  # 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
+
+def show_string(number)
+  return number.to_s
+end
+
+p show_string(21)
