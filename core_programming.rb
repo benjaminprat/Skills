@@ -645,3 +645,11 @@ def math(number)
 end
 
 p math(10)
+
+# MAP
+
+#  1. Start with an array of numbers and create a new array with each number times 3.
+#     For example, [1, 2, 3] becomes [3, 6, 9].
+
+numbers = [2, 5, 8]
+p numbers.map{|number| number * 3}
