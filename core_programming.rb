@@ -684,3 +684,14 @@ p numbers.map {|number| number + 7}
 tacos = ["barbacoa", "deshebrada", "lengua"]
 
 p tacos.map {|taco| taco.length}
+
+#  6. Start with an array of hashes and create a new array of number values from each hash's :age key.
+#     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16].
+
+pets = [
+  {name: "Luna", age: 6},
+  {name: "Orion", age: 1},
+  {name: "Margaret", age: 2}
+]
+
+p pets.map {|pet| pet[:age]}
