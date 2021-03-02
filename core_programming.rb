@@ -660,3 +660,14 @@ p numbers.map{|number| number * 3}
 words = ["basket case", "flora", "fauna"]
 
 p words.map {|word| word.upcase}
+
+#  3. Start with an array of hashes and create a new array of string values from each hash's :name key.
+#     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes ["Alice", "Blane"].
+
+people = [
+  {name: "Pepper", age: 1},
+  {name: "Orion", age:2}, 
+  {name: "Luna", age: 6}
+]
+
+p people.map {|person| person[:name]}
