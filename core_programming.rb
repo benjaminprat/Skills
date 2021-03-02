@@ -619,3 +619,13 @@ def show_string(number)
 end
 
 p show_string(21)
+
+# 8. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
+
+def repeat_string(string)
+  5.times do
+  p string
+  end
+end
+
+p repeat_string("meow")
