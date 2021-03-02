@@ -695,3 +695,10 @@ pets = [
 ]
 
 p pets.map {|pet| pet[:age]}
+
+#  7. Start with an array of numbers and create a new array with each number divided by 2.
+#     For example, [1, 2, 3] becomes [0.5, 1.0, 1.5].
+
+numbers = [6, 12, 22]
+
+p numbers.map{|number| number / 2}
