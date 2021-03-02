@@ -653,3 +653,10 @@ p math(10)
 
 numbers = [2, 5, 8]
 p numbers.map{|number| number * 3}
+
+#  2. Start with an array of strings and create a new array with each string upcased.
+#     For example, ["hello", "goodbye"] becomes ["HELLO", "GOODBYE"].
+
+words = ["basket case", "flora", "fauna"]
+
+p words.map {|word| word.upcase}
