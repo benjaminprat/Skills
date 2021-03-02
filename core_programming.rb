@@ -595,3 +595,11 @@ def squared(number)
   end
   
   p squared(4)
+
+  # 5. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
+
+def return_first_letter(string)
+  return string[0]
+  end
+  
+  p return_first_letter("kitty")
