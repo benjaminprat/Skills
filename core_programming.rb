@@ -603,3 +603,11 @@ def return_first_letter(string)
   end
   
   p return_first_letter("kitty")
+
+  # 6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
+
+def join_words(word1, word2, word3)
+  return "#{word1} #{word2} #{word3}"
+  end
+  
+  p join_words("margarita", "sunshine", "patio")
