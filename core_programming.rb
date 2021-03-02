@@ -636,4 +636,12 @@ def average(num1, num2, num3)
   return (num1 + num2 + num3) / 3.0
 end
   
-  p average(5,15,10)
+p average(5,15,10)
+
+# 10. Write a function that takes in a number and returns the number times 10 plus 30. Then run the function and print the result.
+
+def math(number)
+  return (number * 10) + 30
+end
+
+p math(10)
