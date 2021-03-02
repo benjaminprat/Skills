@@ -544,4 +544,13 @@ p laptops[1][:model]
 
 # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
 
+words = {
+  grit: "firmness of character; indomitable spirit; pluck",
+  passion: "a strong or extravagant fondness, enthusiasm, or desire for anything"
+}
+
+words[:unveiled] = "revealed to public knowledge or scrutiny; made evident or manifest"
+
+p words
+
 # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
