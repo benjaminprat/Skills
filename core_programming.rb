@@ -671,3 +671,9 @@ people = [
 ]
 
 p people.map {|person| person[:name]}
+
+#  4. Start with an array of numbers and create a new array with each number plus 7.
+#     For example, [1, 2, 3] becomes [8, 9, 10].
+
+numbers = [10, 12, 14]
+p numbers.map {|number| number + 7}
