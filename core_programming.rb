@@ -677,3 +677,10 @@ p people.map {|person| person[:name]}
 
 numbers = [10, 12, 14]
 p numbers.map {|number| number + 7}
+
+#  5. Start with an array of strings and create a new array with each string's length.
+#     For example, ["hello", "goodbye"] becomes [5, 7]
+
+tacos = ["barbacoa", "deshebrada", "lengua"]
+
+p tacos.map {|taco| taco.length}
