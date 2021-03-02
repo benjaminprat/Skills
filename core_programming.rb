@@ -709,3 +709,14 @@ p numbers.map{|number| number / 2}
 
 words = ["bike", "kettlebell", "guitar"]
 p words.map {|word| word[0]}
+
+# 9.  Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
+#     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
+
+friends = [
+  {name: "Luke", age: 60},
+  {name: "Syringa", age: 41},
+  {name: "Cassie", age: 34}
+]
+
+p friends.map {|friend| friend[:age] * 2}
