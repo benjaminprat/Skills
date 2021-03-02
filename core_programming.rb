@@ -629,3 +629,11 @@ def repeat_string(string)
 end
 
 p repeat_string("meow")
+
+# 9. Write a function that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the function and print the result.
+
+def average(num1, num2, num3)
+  return (num1 + num2 + num3) / 3.0
+end
+  
+  p average(5,15,10)
