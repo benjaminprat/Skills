@@ -702,3 +702,10 @@ p pets.map {|pet| pet[:age]}
 numbers = [6, 12, 22]
 
 p numbers.map{|number| number / 2}
+
+
+#  8. Start with an array of strings and create a new array with each string's first letter only.
+#     For example, ["hello", "goodbye"] becomes ["h", "g"].
+
+words = ["bike", "kettlebell", "guitar"]
+p words.map {|word| word[0]}
