@@ -554,3 +554,8 @@ words[:unveiled] = "revealed to public knowledge or scrutiny; made evident or ma
 p words
 
 # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
+shirt = { brand: "Nike", color: "green", size: "large"}
+
+p shirt[:brand]
+p shirt[:color]
+p shirt[:size]
