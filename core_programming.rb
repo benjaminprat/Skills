@@ -777,6 +777,10 @@ p items.select{|item| item[:name].length < 6}
 #  7. Start with an array of numbers and create a new array with only the numbers less than 10.
 #     For example, [8, 23, 0, 44, 1980, 3] becomes [8, 0, 3].
 
+numbers = [8, 23, 0, 44, 1980, 3]
+
+p numbers.select{|number| number < 10}
+
 #  8. Start with an array of strings and create a new array with only the strings that don't start with the letter "b".
 #     For example, ["big", "little", "good", "bad"] becomes ["little", "good"].
 
