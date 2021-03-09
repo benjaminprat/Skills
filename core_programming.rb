@@ -801,3 +801,11 @@ p items.select {|item| item[:price] < 10}
 numbers = [2, 4, 5, 1, 8, 9, 7]
 
 p numbers.select {|number| number.odd?}
+
+#REDUCE
+
+#  1. Start with an array of numbers and compute the sum of all the numbers.
+#     For example, [5, 10, 8, 3] becomes 26.
+
+numbers = [5, 10, 8, 3]
+p numbers.reduce(0) {|sum, number| sum + number }
