@@ -812,6 +812,17 @@ p numbers.reduce(0) {|sum, number| sum + number }
 
 #  2. Start with an array of strings and combine them all into a single string.
 #     For example, ["volleyball", "basketball", "badminton"] becomes "volleyballbasketballbadminton".
+
 strings = ["volleyball", "basketball", "badminton"]
 
-p strings.each {|string| string}.join("")
+word =  strings.reduce("") {|word, sport| word+sport}
+p word
+
+#  3. Start with an array of hashes and compute the sum of the prices (from the :price key).
+#     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes 105.
+
+items =  [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
+
+total_items = items.reduce(0) do |total, item| total + item[:price]
+end
+p total_items
