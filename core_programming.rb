@@ -809,3 +809,9 @@ p numbers.select {|number| number.odd?}
 
 numbers = [5, 10, 8, 3]
 p numbers.reduce(0) {|sum, number| sum + number }
+
+#  2. Start with an array of strings and combine them all into a single string.
+#     For example, ["volleyball", "basketball", "badminton"] becomes "volleyballbasketballbadminton".
+strings = ["volleyball", "basketball", "badminton"]
+
+p strings.each {|string| string}.join("")
